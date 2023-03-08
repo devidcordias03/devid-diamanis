@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import hello from './Hello';
+
+import Tiga from './Tiga';
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 /*root.render(
   <React.StrictMode>
-    <Hello />
+    <Tiga.jsx />
   </React.StrictMode>
 );*/
-root.render(<h1>Hello, sayang!</h1>);v
+//root.render(<h1>Hello, sayang!</h1>);
+root.render(<Tiga/>)
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
